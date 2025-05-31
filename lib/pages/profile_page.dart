@@ -10,11 +10,7 @@ class ProfilePage extends StatefulWidget {
 class _ProfilePageState extends State<ProfilePage> {
   int _counter =0;
 
-  void _incrementCounter(){
-    setState(() {
-      _counter++;
-    });
-  }
+
   String message = "";
 
   void greetUser(){
